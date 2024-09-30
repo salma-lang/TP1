@@ -17,3 +17,12 @@ Dans cette étape, j'ai utilisé l'interface phpMyAdmin pour créer la base de d
 Dans cette étape, j'ai d'abord créé une classe Java nommée Site dans le package beans. Cette classe représente les entités de la table Site dans ma base de données. J'y ai défini deux attributs : id et nom. J'ai ensuite ajouté un constructeur par défaut ainsi qu'un constructeur paramétré pour initialiser les objets Site avec un nom spécifique. De plus, j'ai mis en place les méthodes "getter" et "setter" pour permettre l'accès et la modification de ces attributs.Par la suite, j'ai créé une classe Test dans laquelle j'ai ajouté une méthode save. Cette méthode permet d'insérer un objet Site dans la table Site de la base de données db. J'ai utilisé les objets Connection et Statement de JDBC pour établir la connexion à la base de données et exécuter une requête SQL INSERT. Cette requête insère les données de l'objet Site dans la table, assurant ainsi la persistance des informations dans la base de données.
 # 5. Récupération des Données:
 Dans cette étape, j'ai cree une classe nommée Main ou j'ai ajouté une méthode main pour tester la fonctionnalité de récupération des données. J'ai appelé la méthode load que j'avais précédemment créée afin de vérifier qu'elle pouvait récupérer les enregistrements de la table Site de manière efficace. En exécutant cette méthode main, j'ai pu observer les données qui avaient été insérées dans la base de données, confirmant ainsi que la méthode load fonctionnait correctement et affichait les informations présentes dans la table Site. Cela a validé que l'opération de récupération des données à partir de la base de données était réussie.
+# Conclusion
+Ce projet permet de se familiariser avec les bases de l'utilisation de JDBC en Java pour la gestion des bases de données. En plus de l'insertion et la récupération des données, il met en lumière les bonnes pratiques de gestion des connexions et des ressources.
+# demonstration vidéo :
+https://github.com/user-attachments/assets/6f5bc7f7-f4e2-4873-b369-9063f7b3611b
+
+
+
+
+
